@@ -1,7 +1,7 @@
-package org.JavaLearning;
+package src.main.java.org.JavaLearning;
 
 // Q:-> Why Solving Multiple Inheritance Through interface.Super Why Not Class.Super
-// Reason:- Super Denotes immediate parent class but suppose if we do multiple inheritance through classes which class to refer world be
+// Reason:- Super Denotes immediate parent class but suppose if we do multiple inheritance through classes which class to refer would be
 //  a great challenge. as there are multiple levels
 public class DiamondProblemDemo {
 

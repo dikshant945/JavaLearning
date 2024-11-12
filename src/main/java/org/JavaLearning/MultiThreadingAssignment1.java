@@ -1,4 +1,4 @@
-package org.JavaLearning;
+package src.main.java.org.JavaLearning;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -43,7 +43,6 @@ public class MultiThreadingAssignment1 {
             executer.submit(() -> countFrequency(path));
         }
 
-
         executer.shutdown();
 
         try {
@@ -54,7 +53,6 @@ public class MultiThreadingAssignment1 {
             executer.shutdownNow();
             Thread.currentThread().interrupt();
         }
-
 
         for(Map.Entry<String, Integer>entry : conCurrentHashmap.entrySet()) {
             System.out.println(entry.getKey() + "->" + entry.getValue());
