@@ -1,4 +1,4 @@
-package src.main.java.org.JavaLearning;
+package org.JavaLearning;
 
 public class DeadlockExample {
     static final Object resource1 = new Object(); // resource1 lock

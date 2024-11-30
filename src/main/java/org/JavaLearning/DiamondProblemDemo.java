@@ -1,4 +1,4 @@
-package src.main.java.org.JavaLearning;
+package org.JavaLearning;
 
 // Q:-> Why Solving Multiple Inheritance Through interface.Super Why Not Class.Super
 // Reason:- Super Denotes immediate parent class but suppose if we do multiple inheritance through classes which class to refer would be
