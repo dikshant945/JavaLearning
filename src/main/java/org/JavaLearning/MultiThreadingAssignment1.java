@@ -25,7 +25,7 @@ public class MultiThreadingAssignment1 {
                 }
             }
         } catch (IOException e) {
-            System.err.println("Error processing file: " + fileName);
+            System.err.println("Error processing files: " + fileName);
             e.printStackTrace();
         }
     }
