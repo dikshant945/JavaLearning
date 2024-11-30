@@ -13,7 +13,7 @@ public class DiamondProblemDemo {
 
     public static interface B {
         default void display() {
-            System.out.println("Hi We Are in Interface B");
+            System.out.println("Hi We Are in Interface B ");
         }
     }
 
